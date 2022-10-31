@@ -10,6 +10,20 @@ Create a function that determines whether or not a given year is a leap year. Le
 leapYears(2000) // is a leap year: returns true
 leapYears(1985) // is not a leap year: returns false
 ```
+```javascript
+   const leapYears = function(year){
+    let userInput =
+    //Conditional for if input is divisible by four(1984 and 2004- the last two digits added together divided by 4 if returned as a whole number = true))
+    if(/*year is divisible by 4 && year is divisible by 400*/){  
+       return 'true';
+    }
+    //Conditional for if input is divisible by 100 (not leap years(1800 and 1900))
+    else if(){
+        return 'false'
+    }
+   }
+
+```
 
 
 ## Hints
